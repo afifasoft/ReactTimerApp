@@ -5,9 +5,28 @@
 .top-bar{
   .menu-text{
     color: $nav-text-color;
+
   }
   .menu > .menu-text > a {
     display: inline;
     padding: 0;
+
+  }
+  .active-link {
+    font-weight: bold;
+
+    }
+  }
+  .top-bar-left{
+    .menu > li > a{
+    color: #30c6fa;
+
+    }
+  }
+
+.top-bar-right{
+  .menu > li > a{
+  color: #30c6fa;
+
   }
 }
